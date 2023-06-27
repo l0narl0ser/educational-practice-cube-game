@@ -26,6 +26,7 @@ public class CubeController : MonoBehaviour
             GameObjectSpawn();
         }
         UpdateCubesStates();
+        //добавить лог
     }
     private void UpdateCubesStates()
     {
