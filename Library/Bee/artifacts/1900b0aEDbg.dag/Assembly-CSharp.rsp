@@ -347,7 +347,8 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
-"Assets/Prefabs/cubecontroller.cs"
+"Assets/Scripts/CubeController.cs"
+"Assets/Scripts/GameController.cs"
 -langversion:9.0
 
 /deterministic
