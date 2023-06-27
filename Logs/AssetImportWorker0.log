@@ -142,6 +142,7 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (1ms)
+<<<<<<< HEAD
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
@@ -208,15 +209,29 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
+=======
+>>>>>>> master
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 17 unused Assets / (79.9 KB). Loaded Objects now: 3523.
 Memory consumption went from 111.9 MB to 111.8 MB.
 Total: 4.009000 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.125200 ms MarkObjects: 3.483800 ms  DeleteObjects: 0.126600 ms)
+=======
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 5.32 seconds
+Refreshing native plugins compatible for Editor in 133.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.4 KB). Loaded Objects now: 3510.
+Memory consumption went from 107.6 MB to 107.5 MB.
+Total: 21.838400 ms (FindLiveObjects: 1.864900 ms CreateObjectMapping: 0.428700 ms MarkObjects: 17.700300 ms  DeleteObjects: 1.841900 ms)
+>>>>>>> master
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -228,3 +243,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
+=======
+========================================================================
+Received Import Request.
+  Time since last request: 104967.361065 seconds.
+  path: Assets/Prefabs/Cube.prefab
+  artifactKey: Guid(edbc49ade41ee9b44aa15ed0353f311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube.prefab using Guid(edbc49ade41ee9b44aa15ed0353f311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af94e3530d6828d7796bace0a3170cb7') in 3.262324 seconds 
+>>>>>>> master
