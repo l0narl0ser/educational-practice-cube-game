@@ -23,6 +23,10 @@ public class CubeController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            //ТУТ будет лог
+            //ТУТ будет лог
+            //ТУТ будет лог
+            //ТУТ будет лог
             GameObjectSpawn();
         }
         UpdateCubesStates();
