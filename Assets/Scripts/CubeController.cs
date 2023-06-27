@@ -1,17 +1,24 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cubecontroller : MonoBehaviour
+public class CubeController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject cubePrefab;
+    public List<GameObject> cubeList;
+    public float scalingFactor = 0.99995f;
+    public int numCubes = 0;
+
+    [SerializeField]
+    private float _minimalScale = 0.9f;
+
+    private void Start()
     {
-        
+        cubeList = new List<GameObject>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         
     }
