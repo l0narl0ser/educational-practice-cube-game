@@ -24,6 +24,7 @@ public class CubeController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             GameObjectSpawn();
+            Debug.LogWarning("Cube is spawned");
         }
         UpdateCubesStates();
     }
